@@ -1,6 +1,6 @@
 <project name="OceanDepth" default="main">    
 	<property name="projectHome" location="." />
-	<property name="TestServerPlugins" location="../../../../MCServer/plugins" />
+	<property name="TestServerPlugins" location="../../../../OceanDepthServer/plugins" />
 	<property name="major.minor" value="0.0" />
 	
 	<propertyfile file="${projectHome}/build.number"

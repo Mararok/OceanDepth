@@ -2,7 +2,5 @@ name: OceanDepth
 main: com.gmail.mararok.OceanDepth.OceanDepthPlugin
 author: Mararok
 version: @VERSION
-depend: [WorldGuard]
+load: STARTUP
 prefix: OD
-commands:
- od:
