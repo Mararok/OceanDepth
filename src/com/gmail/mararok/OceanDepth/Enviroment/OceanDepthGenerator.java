@@ -45,7 +45,7 @@ public class OceanDepthGenerator extends ChunkGenerator {
 	
 	@Override
 	public Location getFixedSpawnLocation(World world, Random random) {
-		return new Location(world,0,5,0);
+		return new Location(world,0,40,0);
 	}
 	@Override
 	public byte[][] generateBlockSections(World world, Random random, int x,

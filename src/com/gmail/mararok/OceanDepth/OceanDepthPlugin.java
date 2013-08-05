@@ -35,10 +35,10 @@ public class OceanDepthPlugin extends JavaPlugin implements Listener {
 	
 	void addVulcan() {
 		
-		if (vulcans.size() < 10) {
+		if (vulcans.size() < 32) {
 			Random r = new Random();
 			
-			vulcans.add(new Vulcan(getServer().getWorld("test"),new Location(getServer().getWorld("test"),r.nextInt(20),0,r.nextInt(20)),(new Random()).nextInt(40)) );
+			vulcans.add(new Vulcan(new Location(getServer().getWorld("test"),r.nextInt(100),0,r.nextInt(100)),20) );
 		}
 	}
 	@EventHandler
@@ -46,7 +46,7 @@ public class OceanDepthPlugin extends JavaPlugin implements Listener {
 		getLogger().info("init world");
 		t = new SimpleTask();
 		t.plugin = this;
-		t.runTaskTimer(this,20,15);
+		t.runTaskTimer(this,100,10);
 	}
 }
 
