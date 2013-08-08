@@ -1,6 +1,6 @@
 /bin
 /build
-.externalToolBuilders/AntB.launch
+/.externalToolBuilders/AntB.launch
 .classpath
 .project
 .settings
